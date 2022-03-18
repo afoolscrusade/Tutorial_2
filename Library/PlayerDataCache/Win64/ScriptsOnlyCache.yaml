@@ -8,9 +8,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -28,10 +26,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - TestRunner.Callbacks.WindowResultUpdaterDataHolder
@@ -84,31 +80,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 626}
+      Script: {instanceID: 652}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2272}
     - Class: 114
-      Script: {instanceID: 2254}
+      Script: {instanceID: 2280}
     - Class: 114
-      Script: {instanceID: 2414}
+      Script: {instanceID: 2440}
     - Class: 114
-      Script: {instanceID: 2682}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2880}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3116}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 4884}
     - Class: 114
-      Script: {instanceID: 5594}
+      Script: {instanceID: 5282}
     - Class: 114
-      Script: {instanceID: 36536}
+      Script: {instanceID: 5622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -528,6 +524,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enemyscript
+  - hash:
+      serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -658,13 +660,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: e08dc097b830ae769e9cdd9b04e903ac
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: enemyscript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: R:/Unity Stuff/Tutorial 2/Builds/Tutorial 2.exe
+  playerPath: R:/Unity Stuff/Tutorial 2/Builds/Mercure_Timothy_DIG3480_Challenge_2/Tutorial
+    2.exe

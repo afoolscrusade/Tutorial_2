@@ -53,7 +53,7 @@ public class PlayerScript : MonoBehaviour
             winTextObject.SetActive(true);
             musicSource.Stop();
             player.SetActive(false);
-            if (musicCounter == 0)
+        if (musicCounter == 0)
             {
                 musicSource2.Play();
                 musicCounter += 1;
@@ -63,11 +63,6 @@ public class PlayerScript : MonoBehaviour
         {
             deathTextObject.SetActive(true);
             player.SetActive(false);
-        }
-        if (Input.GetKeyDown("escape"))
-        {
-            Application.Quit();
-            //Debug.Log("escape");
         }
         if (Input.GetKey(KeyCode.D))
         {
